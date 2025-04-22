@@ -14,8 +14,8 @@ fetch("/api")
   return (
     <div className="App">
     <header className="App-header">
-      <p>
-    loading
+    <p>
+   {!data ? "loading " : data}
   </p>
   </header>
   </div>
