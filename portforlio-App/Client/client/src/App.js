@@ -1,6 +1,7 @@
 import React from "react";
 import {useState, useEffect} from "react";
 import './App.css';
+import Header from './Component/header';
 
 function App() {
 const [data, setData] = useState(null);
@@ -14,13 +15,15 @@ fetch("/api")
   return (
     <div className="App">
     <header className="App-header">
-    <p>
-   {!data ? "loading123 " : data}
-  </p>
+   
+  <Header/>
   </header>
   </div>
   );
 }
 export default App;
 
+{/* <p>
+{!data ? "loading123 " : data}
 
+</p> */}
