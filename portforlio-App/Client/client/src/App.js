@@ -15,7 +15,7 @@ fetch("/api")
     <div className="App">
     <header className="App-header">
     <p>
-   {!data ? "loading " : data}
+   {!data ? "loading123 " : data}
   </p>
   </header>
   </div>
