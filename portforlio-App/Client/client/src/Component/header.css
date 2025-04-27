@@ -5,25 +5,25 @@
 }
 
 ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    
+   width:100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;   
+  
+}
+li{
+    float: left;
 }
 li a{
-    float: right;
-}
-ul li a{
     display: block;
     color: white;
     text-align: center;
     padding: 16px;
     text-decoration: none;
 }
-li a :hover{
-    background: white;
-    color: black;
+ a:hover{
+  color: black;
+  background-color: white;
   
     
 }
