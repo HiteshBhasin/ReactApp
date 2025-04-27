@@ -1,12 +1,13 @@
 import { useState, useEffect } from "react";
 
 
-function MyFrom(){
+function ContactForm(){
     const [name, setName] = useState(' ');
     const [email, setEmail] = useState(' ');
     
-    const handleSubmit = 
+    
 
-        return
+        
 
 }
+export default ContactForm;

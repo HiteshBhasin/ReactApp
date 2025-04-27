@@ -11,7 +11,7 @@ ul{
     overflow: hidden;
     
 }
-li{
+li a{
     float: right;
 }
 ul li a{
