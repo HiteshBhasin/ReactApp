@@ -12,6 +12,7 @@
   "description": "",
   "dependencies": {
     "express": "^5.1.0",
+    "express-path": "^0.3.8",
     "nodemon": "^3.1.9",
     "sha256": "^0.2.0"
   }

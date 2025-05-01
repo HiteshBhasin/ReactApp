@@ -16,6 +16,28 @@
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
       monospace;
   }
-  #root{
-    height: 100%;
+  
+  .welcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+ button{
+    background-color: green;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-decoration: none;
+    margin: 8px 30px;
+    box-shadow:  0 0 10px rgba(255,255,255,0.2);
+    cursor: pointer;
+
+
+  }
+  button:hover{
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
+  transition: box-shadow 0.3s ease;
   }
