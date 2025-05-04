@@ -1,6 +1,4 @@
 import React from "react";
-
-import {Link} from 'react-router-dom';
 import './header.css';
 const Header =() =>{
    return (
@@ -20,7 +18,3 @@ const Header =() =>{
 }
 export default Header;
 
-{/* <Link to="/" className="link">Home</Link>
-           <Link to="/about" className="link">About Me</Link>
-           <Link to="/projects"className="link">Projects</Link>
-           <Link to="/contactForm"className="link">Contact</Link> */}

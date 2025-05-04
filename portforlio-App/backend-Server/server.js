@@ -4,14 +4,18 @@ const port = process.env.PORT || 8080 ;
 const fs = require('fs');
 const path = require('path');
 
-const filePath= path.join(__dirname, './content/about.txt')
 
-app.get("/" , (req,res)=>{
-    res.send("this is a a normal respornce")
-});
 
 app.get("/home" ,(req, res)=>{
-    res.json({message:"this is a react app connect"})
+    const file= path.join(__dirname, './content/about.txt')
+    fs.readFile(file , 'utf8', (err,data) =>{
+        if (err) {
+            console.error('error parsing the file');
+            
+        } else {
+            res.send(data)
+        }
+    })
 
 });
 

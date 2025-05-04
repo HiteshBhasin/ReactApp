@@ -1,6 +1,6 @@
-import React from 'react';
+// import React from 'react';
 
-const Projects = ()=>{
+// const Projects = ()=>{
 
-}
-export default Projects;
+// }
+// export default Projects;

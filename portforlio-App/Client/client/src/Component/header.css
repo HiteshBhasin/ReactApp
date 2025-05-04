@@ -41,3 +41,16 @@ li a{
   
     
 }
+ .about{
+    padding: 1rem;
+    font-size: 1.1rem;
+    line-height: 1.6;
+ }
+ .about strong {
+    font-weight: bold;
+  }
+  
+  .about ul {
+    list-style-type: disc;
+    margin-left: 1.5rem;
+  }
