@@ -3,7 +3,6 @@ import './App.css';
 
 import Header from './Component/header';
 import Home from './Component/home';
-import About from './Component/about';
 import Projects from './Component/projects';
 import ContactForm from './Component/contactForm';
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
@@ -17,7 +16,6 @@ function App() {
     <Routes>
       <Route path="/" element ={<Home/>}/>
       <Route path="/home" element ={<Home/>}/>
-      <Route path="/about" element ={<About/>}/>
       <Route path="/projects" element ={<Projects/>}/>
       <Route path="/contactForm" element ={<ContactForm/>}/>
     </Routes>

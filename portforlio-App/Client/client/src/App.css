@@ -4,6 +4,7 @@ html ,body ,#root, .App{
    width: 100%;
    margin:0;
    padding:0;
+  
 }
 
 
@@ -13,8 +14,7 @@ html ,body ,#root, .App{
    display: flex;
    flex-direction: column;
    background-color: black;
-   min-height: 100vh;
-   color: white;
+   color:white
   
 }
 

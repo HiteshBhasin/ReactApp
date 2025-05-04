@@ -22,7 +22,6 @@ return(<div className='home'>
     <h1 className='h1'>
         WELCOME!
     </h1> <br />
-   
     <div className='about'>
     {!data ? 'error' : <ReactMarkdown>{data}</ReactMarkdown>}
     
