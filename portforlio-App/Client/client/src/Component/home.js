@@ -5,11 +5,9 @@ import ReactMarkdown from 'react-markdown'
 
 
 const Home = ()=>{
-const [theme, setTheme] = useState('light');
 
-const toggeleTheme =()=>{
-    setTheme(theme==='light'?'dark':'light');
-}
+
+
 const [data, setData] = useState(null);
 useEffect(()=>{
 fetch("/home")
@@ -17,19 +15,33 @@ fetch("/home")
 .then((data)=>setData(data));
 },[]);
 
-return(<div className='home'>
-    <div className='welcome'>
-    <h1 className='h1'>
-        WELCOME!
-    </h1> <br />
-    <div className='about'>
-    {!data ? 'error' : <ReactMarkdown>{data}</ReactMarkdown>}
-    
+return (
+  <div className="home">
+    <div className="welcome">
+      <h1 className="h1">WELCOME!</h1>
+      <hr className="divider" />
+      <div className="author-section">
+        <img src="/profile.jpg" alt="Profile" className="profile-pic" />
+        <div className="author-details">
+          <strong>Hitesh Bhasin</strong>
+          <div className="meta">
+            <span>
+              {new Date().toLocaleDateString("en-US", {
+                year: "numeric",
+                month: "short",
+                day: "numeric",
+              })}
+            </span>
+          </div>
+        </div>
+      </div>
+      <hr className="divider2" />
+      <div className="about">
+        {!data ? "error" : <ReactMarkdown>{data}</ReactMarkdown>}
+      </div>
     </div>
-    </div>
-   
-    
-</div>)
+  </div>
+);
 
 
 }

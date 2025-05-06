@@ -1,11 +1,4 @@
 
-  .home, body, #root, html ,.App{
-    width:100%;
-    height:100%;
-    background-image: url('../assets/background2.png');
-    background-size: cover;
- 
-  }
   .welcome{
     display: flex;
     flex-direction: column;
@@ -30,7 +23,7 @@
   transition: box-shadow 0.3s ease;
   }
   .about{
-    padding: 0px;
+    padding: 0px 150px 0px 150px;;
     margin:100px;
     display: block;
   }
@@ -46,7 +39,7 @@
     margin-left: -49px;
     width:175px;
     justify-content: center;
- 
+    color: black;
     
    
   }
@@ -60,4 +53,19 @@
     text-decoration-line: underline;
 
   }
- 
+  .divider {
+    border: none;
+    height: 2px;
+    background-color: #ccc; /* or use #444 for dark mode */
+    margin: 20px 0;
+    width: 75%;
+  }
+  .divider2 {
+    border: none;
+    height: 2px;
+    background-color: #ccc; /* or use #444 for dark mode */
+    margin-top: 70px;
+    
+    width: 75%;
+  }
+  

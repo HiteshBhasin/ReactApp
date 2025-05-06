@@ -24,3 +24,7 @@
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
       monospace;
   }
+  const toggeleTheme =()=>{
+    setTheme(theme==='light'?'dark':'light');
+}
+const [theme, setTheme] = useState('light');
