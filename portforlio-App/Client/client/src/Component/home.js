@@ -21,7 +21,7 @@ return (
       <h1 className="h1">WELCOME!</h1>
       <hr className="divider" />
       <div className="author-section">
-        <img src="/profile.jpg" alt="Profile" className="profile-pic" />
+        <img src="../assets/profile.jpg" alt="Profile" className="profile-pic" />
         <div className="author-details">
           <strong>Hitesh Bhasin</strong>
           <div className="meta">
