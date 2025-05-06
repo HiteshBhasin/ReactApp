@@ -25,6 +25,21 @@ Each of these projects reflects my ability to learn fast, think critically, and 
 🏆 Notable Achievement
 
 I had the honor of representing the **University of Winnipeg** at the prestigious **JDC West** competition as a **Business Technology Delegate**. Working in a competitive, team-based environment sharpened my skills in strategic thinking, professional communication, and applying technology to real-world business problems.
+## 🌐 Personal Portfolio Website
+A responsive and visually engaging personal portfolio built using React, showcasing my background, technical skills, and projects. <br/>
+It features a clean layout with interactive elements, including dynamically rendered markdown content, a live date display, and a custom dark theme. <br/>
+Designed with a mix of futuristic and minimal tech-inspired visuals, the site highlights both frontend UI skills and backend integration. This project serves as a professional digital profile to connect with peers, recruiters, and the tech community.
+
+
+A responsive and visually engaging **personal portfolio** built using **React**, showcasing my background, technical skills, and projects.
+
+- Features a clean layout with interactive components.
+- Supports **dynamic theme switching** (light/dark mode).
+- Integrates **live Markdown rendering** for editable content.
+- Includes a **current date display** and **interactive UI elements**.
+- Designed with a blend of **futuristic tech visuals** and **minimalist design**.
+
+This project serves as my professional digital profile and a platform to connect with the tech community, recruiters, and collaborators.
 
 🚀 What’s Next?
 
