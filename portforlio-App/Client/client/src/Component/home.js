@@ -10,7 +10,6 @@ const Home = ()=>{
     setTheme(theme==='light'?'dark':'light');
 }
 
-
 const [data, setData] = useState(null);
 useEffect(()=>{
 fetch("/home")
