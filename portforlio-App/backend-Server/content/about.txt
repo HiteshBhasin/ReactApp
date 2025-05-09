@@ -53,6 +53,7 @@ It serves as a foundational project that can be extended with NLP, machine learn
 ## 🏆 Achievement
 
 I had the honor of representing the University of Winnipeg at the prestigious **JDC West** competition as a Business Technology Delegate. Working in a competitive, team-based environment sharpened my skills in strategic thinking, professional communication, and applying technology to real-world business problems.
+
 ## 🌐 Personal Portfolio Website
 This website is a result of learning React, where a responsive and visually engaging personal portfolio was built using React, showcasing my background in web development and technical skills.It features a clean layout with interactive elements, including dynamically rendered markdown content and a live date display. 
 The home page's content is the result of a REST API using Node.js as the backend, which provides data to the webpage, and the React frontend renders it. Designed with a mix of futuristic and minimal tech-inspired visuals, the site highlights both frontend UI skills and backend integration. 
