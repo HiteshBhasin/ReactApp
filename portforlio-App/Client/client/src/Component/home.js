@@ -23,7 +23,7 @@ return (
     <div className="welcome">
       <h1 className="h1">WELCOME!</h1>
       <h2 className='h2'>
-        Select you theme.<br/>
+        Chane the Theme to.<br/>
         <button className='button' onClick={toggeleTheme}>
           Switch to {theme==='light'? 'Lite':'Dark Grey'}
         </button>
