@@ -2,42 +2,68 @@
 
 About Me
 
-Hi, I'm **Hitesh Bhasin**, a passionate and driven software developer with a solid academic foundation in **Computer Science** and a minor in **Economics and Finance** from the **University of Winnipeg**. My journey into tech has been fueled by a deep curiosity for how things work, a love for problem-solving, and a desire to build impactful digital solutions.
+Hi, I'm Hitesh Bhasin, a passionate and driven software developer with a solid academic foundation in Computer Science and a minor in Economics and Finance from the **University of Winnipeg**. My journey into tech has been fueled by a deep curiosity for how things work, a love for problem-solving, and a desire to build impactful digital solutions.
 
 Over the past few years, I've developed a diverse skill set through hands-on coursework and personal projects, mastering languages such as **Java**, **Python**, **JavaScript**, and **C#**, and building proficiency in technologies like **MongoDB**, **PostgreSQL**, **Node.js**, **Express**, and **React**. I'm comfortable working across both frontend and backend, and I enjoy transforming real-world problems into smart, scalable solutions.
 
 ## Key Projects
+**All projects are on GitHub**
 
-- **📚 Library Management System**  
+- **📚 Library Management System:**
   A full-stack web application built using Node.js, Express, and MongoDB. It streamlines book checkouts, returns, and inventory tracking, with a clean UI and optimized backend functionality.
 
-- **📈 Stock Prediction Tool**  
+- **📈 Stock Prediction Tool:**
   Developed a predictive model using Python libraries (NumPy, pandas, scikit-learn) to analyze historical stock data and forecast future trends. This project honed my understanding of machine learning and data science techniques.
 
-- **🎮 Game Development in Unity**  
+- **🎮 Game Development in Unity:**
   Designed and developed an interactive game using Unity and C#. Integrated animations, audio, and smooth mechanics to enhance the gaming experience while practicing modular code design and cross-platform deployment.
 
-- **⭕ Tic Tac Toe in Java**  
+- **⭕ Tic Tac Toe in Java:**
   A console-based game built to reinforce OOP concepts and Java fundamentals.
 
+- **☀️ Planetary System(Python+Pygame):**
+  This project simulates the motion of celestial bodies (e.g., Earth, Mars) in a simplified solar system using Newtonian physics. Built with Python and Pygame, the simulation models gravitational interactions between planets and the sun using the universal law of gravitation. Each planet’s position is updated based on the net gravitational force applied by all other bodies, and realistic orbital paths are visualized with dynamic trails
+
+
 Each of these projects reflects my ability to learn fast, think critically, and apply technical knowledge to build real applications.
+## 💻 On going Software Projects
+ Live OCR Text Extractor from Camera Feed
+Overview:
+This project is a real-time Optical Character Recognition (OCR) system that captures text from a specific region of a webcam feed using OpenCV and Tesseract OCR. The system continuously scans a user-defined rectangular area within the video frame, extracts any detected text, and logs it to a text file.
 
-🏆 Notable Achievement
+### Key Features:
 
-I had the honor of representing the **University of Winnipeg** at the prestigious **JDC West** competition as a **Business Technology Delegate**. Working in a competitive, team-based environment sharpened my skills in strategic thinking, professional communication, and applying technology to real-world business problems.
+-  Live video capture and processing using OpenCV
+-  Text extraction using Tesseract OCR (via pytesseract)
+- Real-time cropping of a defined region of interest (ROI)
+-  Text logging to a local file (`Document.txt`) with minimal duplication
+-  Modular design with a separate `ocr_core()` script for text recognition
+
+### 🛠 Technologies Used:
+
+- **Python**
+- **OpenCV**
+- **Tesseract OCR (`pytesseract`)**
+- **OS module** for file handling
+
+Purpose and Applications:
+This tool can be used for automating data entry, assistive technologies, or real-time screen/label/document reading through a webcam. 
+It serves as a foundational project that can be extended with NLP, machine learning for handwriting recognition, or voice narration features.
+
+## 🏆 Achievement
+
+I had the honor of representing the University of Winnipeg at the prestigious **JDC West** competition as a Business Technology Delegate. Working in a competitive, team-based environment sharpened my skills in strategic thinking, professional communication, and applying technology to real-world business problems.
 ## 🌐 Personal Portfolio Website
-A responsive and visually engaging personal portfolio built using React, showcasing my background, technical skills, and projects. 
-It features a clean layout with interactive elements, including dynamically rendered markdown content, a live date display, and a custom dark theme. 
-Designed with a mix of futuristic and minimal tech-inspired visuals, the site highlights both frontend UI skills and backend integration. This project serves as a professional digital profile to connect with peers, recruiters, and the tech community.
+This website is a result of learning React, where a responsive and visually engaging personal portfolio was built using React, showcasing my background in web development and technical skills.It features a clean layout with interactive elements, including dynamically rendered markdown content and a live date display. 
+The home page's content is the result of a REST API using Node.js as the backend, which provides data to the webpage, and the React frontend renders it. Designed with a mix of futuristic and minimal tech-inspired visuals, the site highlights both frontend UI skills and backend integration. 
+This project serves as a professional digital profile to connect with peers, recruiters, and the tech community.
 
-
-A responsive and visually engaging **personal portfolio** built using **React**, showcasing my background, technical skills, and projects.
+A responsive and visually engaging personal portfolio built using **React**, showcasing my background, technical skills, and projects.
 
 - Features a clean layout with interactive components.
-- Supports **dynamic theme switching** (light/dark mode).
-- Integrates **live Markdown rendering** for editable content.
-- Includes a **current date display** and **interactive UI elements**.
-- Designed with a blend of **futuristic tech visuals** and **minimalist design**.
+- Integrates live Markdown rendering for editable content.
+- Includes a current date display and interactive UI elements.
+- Designed with a blend of futuristic tech visuals and minimalist design.
 
 This project serves as my professional digital profile and a platform to connect with the tech community, recruiters, and collaborators.
 
