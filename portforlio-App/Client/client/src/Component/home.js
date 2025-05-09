@@ -2,10 +2,13 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import './darkTheme.css';
 import ReactMarkdown from 'react-markdown'
-
+import profile from '../assets/profile.jpg'
 
 const Home = ()=>{
-
+  const [theme, setTheme] = useState('light')
+  const toggeleTheme =()=>{
+    setTheme(theme==='light'?'dark':'light');
+}
 
 
 const [data, setData] = useState(null);
@@ -16,12 +19,18 @@ fetch("/home")
 },[]);
 
 return (
-  <div className="home">
+  <div className={`home ${theme}`}>
     <div className="welcome">
       <h1 className="h1">WELCOME!</h1>
+      <h2 className='h2'>
+        Select you theme.<br/>
+        <button className='button' onClick={toggeleTheme}>
+          Switch to {theme==='light'? 'Lite':'Dark Grey'}
+        </button>
+      </h2>
       <hr className="divider" />
       <div className="author-section">
-        <img src="../assets/profile.jpg" alt="Profile" className="profile-pic" />
+        <img src={profile} alt="Profile" className="profile-pic" />
         <div className="author-details">
           <strong>Hitesh Bhasin</strong>
           <div className="meta">

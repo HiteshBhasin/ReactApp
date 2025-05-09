@@ -6,7 +6,8 @@ const Header =() =>{
        <nav>
          <ul>
          <li><a href="/home">Home</a></li>
-         <li><a href="/contactForm">Contact Me</a></li>
+         {/* <li><a href="/contactForm"></a></li>
+         <li><a href="/contactForm"></a></li> */}
          </ul>
        </nav>
      </header>
