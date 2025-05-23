@@ -5,7 +5,7 @@ const fs = require('fs');
 const path = require('path');
 
 
-app.use(express.static(path.join(__dirname, "../Client/build")));
+
 app.get("/home" ,(req, res)=>{
     const file= path.join(__dirname, './content/about.txt')
     fs.readFile(file , 'utf8', (err,data) =>{
@@ -18,7 +18,7 @@ app.get("/home" ,(req, res)=>{
     })
 
 });
-
+app.use(express.static(path.join(__dirname, "../Client/build")));
 app.get("/*" , (req, res) =>{
 
     res.sendFile(
