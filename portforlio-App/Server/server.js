@@ -19,6 +19,19 @@ app.get("/home" ,(req, res)=>{
 
 });
 
+app.get("/*" , (req, res) =>{
+
+    res.sendFile(
+        path.join(__dirname, "../Client/build/index.html"),
+        (err)=>{
+            if(err){
+                res.status(500).send(err)
+            }
+        }
+    );
+
+});
+
 
 app.listen(port, ()=>{
     console.log(`server is running on ${port}`)
