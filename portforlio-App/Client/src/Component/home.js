@@ -12,7 +12,7 @@ const Home = ()=>{
 
 const [data, setData] = useState(null);
 useEffect(()=>{
-fetch("/home")
+fetch(`${process.env.PUBLIC_URL}/about.txt`)
 .then((res)=>res.text())
 .then((data)=>setData(data));
 },[]);
@@ -45,7 +45,7 @@ return (
       </div>
       <hr className="divider2" />
       <div className="about">
-        {!data ? "error" : <ReactMarkdown>{data}</ReactMarkdown>}
+        {!data ? "Loading..." : <ReactMarkdown>{data}</ReactMarkdown>}
       </div>
     </div>
   </div>
