@@ -1,41 +1,42 @@
-# About Me
+## About
 
-I'm Hitesh Bhasin, a software developer based in Winnipeg. I'm finishing a Computer Science (Honours) degree at the **University of Winnipeg** with a minor in Economics and Finance, and I start Georgia Tech's **Online Master of Science in Computer Science (OMSCS)** in 2027.
+I'm a software developer based in Winnipeg, finishing a Computer Science (Honours) degree at the **University of Winnipeg** with a minor in Economics and Finance. I start Georgia Tech's **Online Master of Science in Computer Science (OMSCS)** in 2027.
 
-Most of my work is full-stack. I build backends in Python (FastAPI) and Node.js, frontends in React, Next.js and TypeScript, and I'm comfortable with PostgreSQL, MongoDB, Docker, AWS and CI/CD. Lately I've been going deeper into distributed systems and AI infrastructure: how work gets queued, retried and recovered when things fail.
+Most of my work is full-stack: backends in Python (FastAPI) and Node.js, frontends in React, Next.js and TypeScript, on PostgreSQL, MongoDB, Docker and AWS. Lately I've been going deeper into distributed systems and AI infrastructure, especially how work gets queued, retried and recovered when things fail.
 
 ## Featured Projects
 
-**AI Agent Execution Framework (AEF)**
-A framework for running and coordinating multiple AI agents. It uses a durable PostgreSQL work queue (`SELECT ... FOR UPDATE SKIP LOCKED`) so workers can claim jobs safely and tasks survive crashes, along with multi-agent spawning, a PostgreSQL vector store, and LLM API integration. Python backend with a typed Next.js/TypeScript frontend.
-*Python · FastAPI · Next.js · TypeScript · PostgreSQL*
+### AI Agent Execution Framework (AEF)
+*Python · Next.js/TypeScript · PostgreSQL — Jan 2026 – May 2026*
 
-**Unified Operations and Intelligence Platform (NestHost)**
-My senior capstone project: a property-management platform built as FastAPI microservices, with Gmail IMAP integration, Redis caching, Docker and a CI/CD pipeline. I worked on testing, code review, production troubleshooting and the technical documentation.
-*Python · FastAPI · PostgreSQL · Redis · Docker*
+- Multi-agent orchestration system that spawns and coordinates agents through LLM API integrations.
+- **Durable PostgreSQL work queue** using `SELECT … FOR UPDATE SKIP LOCKED`, so concurrent workers claim jobs safely and tasks survive crashes.
+- PostgreSQL vector store for retrieval, with a typed Next.js/TypeScript frontend.
 
-**Wildfire and Emergency Navigation Portal**
-A solo full-stack app that pulls emergency and navigation data from four external APIs into a single view. [Live demo](https://disasterapp-4wmr.onrender.com)
-*React · TypeScript · FastAPI · AWS*
+### Unified Operations and Intelligence Platform (NestHost)
+*Senior capstone · Python · FastAPI · PostgreSQL · Redis · Docker — Sep 2025 – Mar 2026*
 
-**Earlier Projects**
+- **FastAPI microservices** for a property-management platform, with Redis caching and Gmail IMAP integration.
+- Shipped through Docker and a CI/CD pipeline; owned testing, code review and production troubleshooting.
+- Wrote the architecture overviews, integration specs and deployment docs.
+
+### Wildfire and Emergency Navigation Portal
+*React/TypeScript · FastAPI · AWS — May 2025 – Jun 2025 · [Live demo](https://disasterapp-4wmr.onrender.com)*
+
+- Solo full-stack app combining **four external APIs** for emergency and navigation information into one view.
+
+### Earlier Projects
+
 - **Stock Prediction Tool:** forecasting from historical stock data with NumPy, pandas and scikit-learn.
 - **Planetary System Simulation:** Newtonian gravity simulation of orbital motion in Python and Pygame.
-- **Library Management System:** full-stack app for checkouts, returns and inventory, built with Node.js, Express and MongoDB.
+- **Library Management System:** full-stack app for checkouts, returns and inventory (Node.js, Express, MongoDB).
 - **Unity Game:** an interactive game built in Unity and C#.
 
-All code is on [GitHub](https://github.com/HiteshBhasin).
+## Leadership & Certifications
 
-## Experience Beyond Code
+- **JDC West:** Business Technology Delegate, University of Winnipeg
+- **AWS Certified Cloud Practitioner**
 
-I represented the University of Winnipeg at **JDC West** as a Business Technology Delegate, working on a team to solve business problems under time pressure.
+## Looking For
 
-## What I'm Looking For
-
-I'm looking for new-grad software engineering roles, especially on backend, distributed systems or AI infrastructure teams. I'm a Canadian citizen based in Winnipeg, eligible to work in the US under TN status.
-
-## Contact
-
-- Email: [bhasinsukh@gmail.com](mailto:bhasinsukh@gmail.com)
-- LinkedIn: [linkedin.com/in/hitesh-bhasin-4212a719b](https://linkedin.com/in/hitesh-bhasin-4212a719b)
-- GitHub: [github.com/HiteshBhasin](https://github.com/HiteshBhasin)
+New-grad software engineering roles, especially backend, distributed systems or AI infrastructure. Canadian citizen based in Winnipeg, eligible to work in the US under TN status. Available from October 12, 2026.
